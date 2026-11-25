@@ -5,7 +5,7 @@
 (function () {
   'use strict';
   // ---- Data bersama lewat Supabase (isi dua baris ini; kosongkan bila tidak dipakai) ----
-  var SUPABASE_URL = 'https://zvfgecbwxtssofoaltpg.supabase.co/rest/v1/';   // contoh: 'https://abcdefgh.supabase.co'
+  var SUPABASE_URL = 'https://zvfgecbwxtssofoaltpg.supabase.co';   // contoh: 'https://abcdefgh.supabase.co'
   var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp2ZmdlY2J3eHRzc29mb2FsdHBnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU1ODc3OTEsImV4cCI6MjExMTE2Mzc5MX0.wvC6FWfKgZgbk0cSsSgmukLBp5SWg4mmmWeF6BPVoYA';   // kunci 'anon' / 'publishable' dari Supabase: Project Settings > API
   var KUNCI = 'helpdeskTiket.v1';
   var KUNCI_SESI = 'helpdeskTiket.sesi';
