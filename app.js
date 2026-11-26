@@ -96,8 +96,8 @@
   //   tiket:[{id,no,dibuat,judul,pelapor,hp,divisi,kategori,deskripsi,prioritas,level,status,teknisiId,tenggat,selesai,lampiran:[dataURL],
   //           utas:[{id,t,jenis:'pesan'|'peristiwa',oleh,peran,teks,ikon,lampiran}]}] }
   // Divisi bawaan (v2). DIVISI_LAMA dipakai migrasi: hanya diganti bila daftar pengguna masih persis bawaan lama.
-  var DIVISI_BARU = ['KPR', 'CS', 'Kasir', 'Finance', 'Accounting', 'Legal', 'IT', 'Marketing', 'Staf'];
-  var DIVISI_BARU = ['KPR', 'CS', 'Kasir', 'Finance', 'Accounting', 'Legal', 'IT', 'Marketing', 'Staf'];
+  var DIVISI_V1_BARU = ['KPR', 'CS', 'Kasir', 'Finance', 'Accounting', 'Legal', 'IT', 'Marketing', 'Staf'];
+  var DIVISI_BARU = ['KPR', 'CS', 'Kasir', 'Finance', 'Accounting', 'Legal'];
   var DIVISI_V2_AWAL = ['KPR', 'CS', 'Kasir', 'Finance', 'Accounting']; // daftar bawaan sebelum LEGAL ditambahkan
   var DIVISI_LAMA = ['Keuangan', 'HRD', 'Pemasaran', 'Gudang', 'Produksi', 'Front Office', 'Direksi'];
   // Pemetaan divisi lama -> baru, khusus untuk data contoh
